@@ -14,6 +14,8 @@
 		451A87C51B7EBFD90043B3DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451A87C41B7EBFD90043B3DD /* Images.xcassets */; };
 		451A87C81B7EBFD90043B3DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A87C61B7EBFD90043B3DD /* LaunchScreen.xib */; };
 		451A87D41B7EBFD90043B3DD /* HideNavTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A87D31B7EBFD90043B3DD /* HideNavTabTests.m */; };
+		451A87DF1B7EC6770043B3DD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A87DE1B7EC6770043B3DD /* TableViewController.m */; };
+		45BF250E1B80C8EB000D5914 /* UINavTabInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BF250D1B80C8EB000D5914 /* UINavTabInteraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		451A87CD1B7EBFD90043B3DD /* HideNavTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideNavTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		451A87D21B7EBFD90043B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		451A87D31B7EBFD90043B3DD /* HideNavTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideNavTabTests.m; sourceTree = "<group>"; };
+		451A87DD1B7EC6770043B3DD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		451A87DE1B7EC6770043B3DD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		45BF250C1B80C8EB000D5914 /* UINavTabInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavTabInteraction.h; sourceTree = "<group>"; };
+		45BF250D1B80C8EB000D5914 /* UINavTabInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavTabInteraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				451A87BC1B7EBFD90043B3DD /* AppDelegate.m */,
 				451A87BE1B7EBFD90043B3DD /* ViewController.h */,
 				451A87BF1B7EBFD90043B3DD /* ViewController.m */,
+				45BF250C1B80C8EB000D5914 /* UINavTabInteraction.h */,
+				45BF250D1B80C8EB000D5914 /* UINavTabInteraction.m */,
+				451A87DD1B7EC6770043B3DD /* TableViewController.h */,
+				451A87DE1B7EC6770043B3DD /* TableViewController.m */,
 				451A87C11B7EBFD90043B3DD /* Main.storyboard */,
 				451A87C41B7EBFD90043B3DD /* Images.xcassets */,
 				451A87C61B7EBFD90043B3DD /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				451A87C01B7EBFD90043B3DD /* ViewController.m in Sources */,
 				451A87BD1B7EBFD90043B3DD /* AppDelegate.m in Sources */,
 				451A87BA1B7EBFD90043B3DD /* main.m in Sources */,
+				451A87DF1B7EC6770043B3DD /* TableViewController.m in Sources */,
+				45BF250E1B80C8EB000D5914 /* UINavTabInteraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				451A87D91B7EBFD90043B3DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		451A87DA1B7EBFD90043B3DD /* Build configuration list for PBXNativeTarget "HideNavTabTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				451A87DC1B7EBFD90043B3DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
